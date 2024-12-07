@@ -1,0 +1,21 @@
+{
+  "name": "eg-shoes",
+  "version": "1.0.0",
+  "description": "Trabajo de enfoque",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass src/scss:dist/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "pendiente"
+  },
+  "keywords": [
+    "..."
+  ],
+  "author": "Efren Gutierrez",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.82.0"
+  }
+}
