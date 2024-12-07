@@ -6,6 +6,67 @@
     <title>EG-Shoes</title>
 </head>
 <body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>EG-Shoes</title>
+    </head>
+    <body>
+        <header class="header">
+            <div class="div__header">
+                <h1>EG-Shoes</h1>
+                <h2>Tu tienda de zapatillas</h2>
+            </div>      
+        </header>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="login.hmtl">Login</a>
+            <a href="singin.html">Singin</a>
+        </nav>
+    
+        <main>
+            <h2>Formulario de registro</h2>
+            <div class="div__main">
+                <form method="post" action="login.php">
+                    <table>
+                        <tr>
+                            <td>
+                                <label for="name">Nombre</label>
+                            </td>
+                            <td>
+                                <input type="text" name="name" required>
+                            </td>
+                            <td>
+                                <label for="surname1">Primer apellido</label>
+                            </td>
+                            <td>
+                                <input type="text" name="surname1" required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="surname2">Segundo apellido(opcional)</label>
+                            </td>
+                            <td>
+                                <input type="text" name="surname2" required>
+                            </td>
+                            <td>
+                                <label for="pass">Contraseña</label>
+                            </td>
+                            <td>
+                                <input type="password" name="pass" required>
+                            </td>
+                        </tr>
+                        <th>
+                            <td>
+                                <input type="submit" value="enviar">
+                            </td>
+                        </th>
+                    </table>
+    
+                </form>
+            </div>
+        </main>
     
 </body>
 </html>
