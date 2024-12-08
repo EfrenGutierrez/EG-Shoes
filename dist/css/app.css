@@ -1,3 +1,35 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+.header {
+  background-color: antiquewhite;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav {
+  background-color: rgb(250, 221, 184);
+  text-align: end;
+}
+.nav a {
+  padding: 0 10px;
+}
+
+main h2 {
+  text-align: center;
+  padding: 50px;
+}
+main .div__main {
+  display: flex;
+  justify-content: center;
+  text-align: left;
+}
 
 /*# sourceMappingURL=app.css.map */

@@ -4,7 +4,7 @@
   "description": "Trabajo de enfoque",
   "main": "index.js",
   "scripts": {
-    "sass": "sass src/scss:dist/css"
+    "sass": "sass --watch src/scss:dist/css"
   },
   "repository": {
     "type": "git",
